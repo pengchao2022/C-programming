@@ -1,0 +1,24 @@
+第一个 C 程序：
+#include <stdio.h>
+
+int main() {
+
+  printf("***************************\n");
+  printf("hello kity\n");
+  printf("***************************\n");
+  return 0;
+
+}
+
+在 Linux 下使用 GCC 进行编译 ：
+
+[root@webserverb c_progranmming]# gcc helloworld.c -o hello
+
+  
+运行 hello 程序：
+
+[root@webserverb c_progranmming]# ./hello
+***************************
+hello kity
+***************************
+[root@webserverb c_progranmming]# 
