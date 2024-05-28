@@ -1,0 +1,20 @@
+在 Mac terminal 建立c 文件夹 和项目：
+
+pengchao@PengChaos-MacBook-Pro Desktop % mkdir myworld
+pengchao@PengChaos-MacBook-Pro Desktop % cd myworld 
+pengchao@PengChaos-MacBook-Pro myworld % mkdir c_project
+pengchao@PengChaos-MacBook-Pro myworld % cd c_project 
+pengchao@PengChaos-MacBook-Pro c_project % code . 
+pengchao@PengChaos-MacBook-Pro c_project %
+
+在 c_project 里面 建立C 文件，如 number.c
+
+#include<stdio.h>
+int main(){
+
+int x = 3;
+int y = 6;
+printf("%d\n", x + y);
+return 0;
+
+}
