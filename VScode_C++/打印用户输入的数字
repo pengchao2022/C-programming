@@ -1,0 +1,22 @@
+// this program will print the number that user typed
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int number;
+
+    cout << "Please enter your number here: ";
+    cin >> number;
+    cout << "The number you entered is: " << number;
+    cout << "\n";
+    return 0;
+}
+
+
+------------- 执行结果 -----------------
+
+pengchao@PengChaos-MacBook-Pro C++programming % cd "/Users/pengchao/C_SCRIPTS/C++programming/" && g++ 2.cpp -o 2 && "/Users/peng
+chao/C_SCRIPTS/C++programming/"2
+Please enter your number here: 76
+The number you entered is: 76
