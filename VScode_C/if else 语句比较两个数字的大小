@@ -1,0 +1,24 @@
+// this program is to compare two numbers whether is bigger to litter than
+
+#include<stdio.h>
+int main(){
+    int number1, number2;
+    printf("please type your two numbers here: ");
+    scanf("%d %d",&number1,&number2);
+    if (number1 == number2)
+    {
+        printf("Result: %d = %d\n",number1,number2);
+    }
+    else if (number1 > number2)
+    {
+        printf("Result: %d > %d\n", number1,number2);
+    }
+    else if (number1 < number2)
+    {
+        printf("Result: %d < %d\n", number1,number2);
+    }
+    return 0;
+    
+    
+    
+}
