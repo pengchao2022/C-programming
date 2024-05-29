@@ -1,0 +1,22 @@
+// this example will use if else statement to judge a number is positive or negative or zero
+
+#include<stdio.h>
+int main(){
+    int i;
+    printf("Pelase enter your number here:");
+    scanf("%d",&i);
+    if(i>0){
+        printf("the number %d you typed is positive number!\n",i);
+    }
+    else if (i<0)
+    {
+        printf("the number %d you typed is negative number!\n",i);
+    }
+    else
+    {
+        printf("the nunber you typed is zero");
+    }
+    return 0;
+    
+
+}
