@@ -1,0 +1,17 @@
+// this program is to print an integer which typed by user:
+
+#include<stdio.h>
+int main(){
+    int number;
+    printf("Please type your number here: ");
+    scanf("%d", &number);
+    printf("the number you typed is : %d\n", number);
+    return 0;
+}
+
+-------------- 执行结果 -------------------
+
+pengchao@PengChaos-MacBook-Pro number % cd "/Users/pengchao/C_SCRIPTS/number/" && gcc tempCodeRunnerFile.c -o tempCodeRunnerFile
+ && "/Users/pengchao/C_SCRIPTS/number/"tempCodeRunnerFile
+Please type your number here: 98
+the number you typed is : 98
