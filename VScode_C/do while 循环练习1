@@ -1,0 +1,15 @@
+//this program is to test the do while examples:
+
+#include<stdio.h>
+int main(){
+    double number, sum = 0;
+    do
+    {
+        printf("Enter a number: ");
+        scanf("%lf", &number);
+        sum += number;
+    } while (number != 0.0);
+    printf("SUM = %.2lf\n",sum);
+    return 0;
+
+}
