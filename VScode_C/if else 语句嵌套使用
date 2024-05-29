@@ -1,0 +1,31 @@
+// this program is to test Nested if...else statement
+
+#include<stdio.h>
+int main(){
+    int number1,number2;
+    printf("Please type two integer numbers here: ");
+    scanf("%d %d",&number1,&number2);
+    if (number1 >= number2)
+    {
+        if (number1 == number2)
+        {
+            printf("Result: %d = %d\n", number1,number2);
+        }
+        else 
+        {
+            printf("Result: %d > %d\n", number1,number2);
+        }
+        
+        
+    }
+    else{
+        printf("Result: %d < %d\n", number1,number2);
+    }
+
+    return 0;
+    
+
+
+
+
+}
