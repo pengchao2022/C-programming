@@ -1,0 +1,26 @@
+// this program is to check whether number you typed is even or odd using if else statement
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+
+    cout << "Please type your number here: ";
+    cin >> n;
+    if (n % 2 == 0)
+    {
+        cout << n <<" "<<"is a even\n";
+    }
+    else{
+        cout << n <<" "<<"is a odd\n";
+    }
+    
+}
+
+------------------- 执行结果 --------------------
+pengchao@PengChaos-MacBook-Pro C++programming % cd "/Users/pengchao/C_SCRIPTS/C++programming/" && g++ 3.cpp -o 3 && "/Users/peng
+chao/C_SCRIPTS/C++programming/"3
+Please type your number here: 8
+8 is a even
+
