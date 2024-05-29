@@ -1,0 +1,20 @@
+
+// Your First C++ program
+
+#include<iostream>
+
+int main(){
+    std::cout << "****************\n";
+    std::cout << "Hello world\n";
+    std::cout << "***************\n";
+    std::cout << "Welcome to China\n";
+    return 0;
+}
+
+------------ 执行结果 --------------
+
+pengchao@PengChaos-MacBook-Pro C++programming % cd "/Users/pengchao/C_SCRIPTS/C++programming/" && g++ first.cpp -o first && "/Users/pengchao/C_SCRIPTS/C++programming/"first
+****************
+Hello world
+***************
+Welcome to China
