@@ -1,0 +1,32 @@
+// this program is to check the palindrome numbers 检查回文数
+
+#include<stdio.h>
+int main(){
+    int n, reversed = 0, remainder, original;
+    printf("Please enter your integer here: ");
+    scanf("%d",&n);
+    original = n;
+
+    while (n != 0)
+    {
+        remainder = n % 10;
+        reversed = reversed * 10 + remainder;
+        n /= 10;
+    }
+
+    if (original == reversed)
+        printf("%d is a palindrome\n", original);
+    else
+        printf("%d is not a palindrome\n", original);
+    
+    return 0;
+    
+    
+}
+
+--------------------- 执行结果 ---------------------
+
+pengchao@PengChaos-MacBook-Pro c_projects % cd "/Users/pengchao/C_SCRIPTS/c_projects/" && gcc 1.c -o 1 && "/Users/pengchao/C_SCR
+IPTS/c_projects/"1
+Please enter your integer here: 121
+121 is a palindrome
