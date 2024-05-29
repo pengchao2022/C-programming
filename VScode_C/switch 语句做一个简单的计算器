@@ -1,0 +1,42 @@
+// this program is to create a simple calculator
+
+#include<stdio.h>
+int main(){
+    char operation;
+    double n1, n2;
+
+    printf("Please enter an operatior(+,-,*,/,): ");
+    scanf("%c", &operation);
+    printf("Enter two numbers: ");
+    scanf("%lf %lf",&n1,&n2);
+
+    switch (operation)
+    {
+    case '+':
+        printf("%.1lf + %.1lf = %.1lf\n",n1,n2,n1+n2);
+        break;
+    
+    case '-':
+        printf("%.1lf - %.1lf = %.1lf\n",n1,n2,n1-n2);
+        break;
+    
+    case '*':
+        printf("%.1lf * %.1lf = %.1lf\n",n1,n2,n1*n2);
+        break;
+
+    case '/':
+        printf("%.1lf / %.1lf = %.1lf\n",n1,n2,n1/n2);
+    
+    default:
+        break;
+    }
+}
+
+------------------------- 执行结果 ------------------------
+
+pengchao@PengChaos-MacBook-Pro number % cd "/Users/pengchao/C_SCRIPTS/number/" && gcc switch.c -o switch && "/Users/pengchao/C_S
+CRIPTS/number/"switch
+Please enter an operatior(+,-,*,/,): *
+Enter two numbers: 7 8
+7.0 * 8.0 = 56.0
+pengchao@PengChaos-MacBook-Pro number % 
