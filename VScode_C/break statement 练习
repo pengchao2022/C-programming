@@ -1,0 +1,35 @@
+// this program is to test break , when user type a negtive number the program will be break
+
+#include<stdio.h>
+int main(){
+    int i;
+    double number, sum = 0.0;
+    for (i = 1; i <= 10; i++)
+    {
+        printf("Enter your number n%d: ", i);
+        scanf("%lf", &number);
+        if (number < 0.0)
+        {
+            break;
+        }
+
+        sum += number;
+        
+    }
+
+    printf("Sum = %.2lf\n", sum);
+    return 0;
+    
+}
+
+
+-------------- 执行结果 ---------------------
+
+pengchao@PengChaos-MacBook-Pro number % cd "/Users/pengchao/C_SCRIPTS/number/" && gcc break.c -o break && "/Users/pengchao/C_SCR
+IPTS/number/"break
+Enter your number n1: 89
+Enter your number n2: 78
+Enter your number n3: 67
+Enter your number n4: 90
+Enter your number n5: -8
+Sum = 324.00
