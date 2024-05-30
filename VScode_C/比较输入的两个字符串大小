@@ -1,0 +1,58 @@
+// this program is to compare two strings using loops
+
+#include<stdio.h>
+
+int main()
+{
+        int count1 = 0, count2 = 0, flag = 0, i;
+        char string1[30], string2[30];
+
+        printf("Please enter your first string here:\n");
+        gets(string1);
+
+        printf("Please enter your second string here:\n");
+        gets(string2);
+
+        while (string1[count1] != '\0')
+        {
+            count1 ++;
+        }
+        while (string2[count2] != '\0')
+        {
+            count2 ++;
+        }
+        i = 0;
+
+        while (string1[i] == string2[i] && string1[i] != '\0')
+        {
+            i++;
+        }
+        
+        if (string1[i] > string2[i])
+        {
+            printf("First string is greater than the second string\n");
+        }
+        else if (string1[i] < string2[i])
+        {
+            printf("Second string is greater than the first string\n");
+        }
+        else
+            printf("Both strings are EQUAL\n");
+        
+        return 0;
+        
+        
+
+
+}
+
+
+------------------ 执行结果 -----------------
+Please enter your first string here:
+warning: this program uses gets(), which is unsafe.
+welcome to CHina
+Please enter your second string here:
+welcome
+First string is greater than the second string
+pengchao@PengChaos-MacBook-Pro c_projects % 
+  
