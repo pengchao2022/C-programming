@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+
+    short m=0177501, n=-0277, x=0xFFF1, y=-0xF;
+    printf("m=%d, n=%d",m,n);
+    printf("\n");
+
+    printf("X=%d,y=%d",x,y);
+    printf("\n");
+
+
+
+
+}
+
+------------------ 执行结果----------------
+pengchao@PengChaos-MacBook-Pro c_projects % cd "/Users/pengchao/C_SCRIPTS/c_projects/" && gcc 8.c -o 8 && "
+/Users/pengchao/C_SCRIPTS/c_projects/"8
+m=-191, n=-191
+X=-15,y=-15
