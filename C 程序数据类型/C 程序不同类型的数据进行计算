@@ -1,0 +1,31 @@
+// this program is to operate different type of data
+
+#include<stdio.h>
+int main(){
+    
+
+    long x,y;
+    int a,b,c,d;
+    x=5;
+    y=6;
+    a=7;
+    b=8;
+    c=x+a;
+    d=y+b;
+
+    printf("c=x+a=%d\n",c);
+    printf("d=y+b=%d\n",d);
+
+}
+
+------------- 执行结果 -------------
+
+pengchao@PengChaos-MacBook-Pro c_projects % cd "/Users/pengchao/C_SCRIPTS/c_projects/" && gcc 5.c -o 5 && "
+/Users/pengchao/C_SCRIPTS/c_projects/"5
+c=x+a=12
+d=y+b=14
+
+
+------------说明--------------
+
+该例题说明了 长整型 Long 可以和 短整型 int  直接进行相加运算
