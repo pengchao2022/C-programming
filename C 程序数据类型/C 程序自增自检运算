@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+
+    int k1,k2,x,y;
+    k1=k2=10;
+    x=k1++;
+    y=++k2;
+
+    printf("k1=%d\n",k1);
+    printf("k2=%d\n",k2);
+    printf("x=%d\n",x);
+    printf("y=%d\n",y);
+
+    k1=k2=10;
+    x=--k1;
+    y=k2--;
+
+    printf("k1=%d\n",k1);
+    printf("k2=%d\n",k2);
+    printf("x=%d\n",x);
+    printf("y=%d\n",y);
+
+
+
+}
+
+--------------- 执行结果--------------
+k1=11
+k2=11
+x=10
+y=11
+k1=9
+k2=9
+x=9
+y=10
