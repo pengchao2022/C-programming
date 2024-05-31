@@ -1,0 +1,24 @@
+// this program is to type a three-digit number then print each number here:
+
+#include<stdio.h>
+int main(){
+
+    int a,b,c,d;
+    printf("please type a three-digit number here:");
+    scanf("%d",&a);
+    b=a/100;
+    c=a/10%10;
+    d=a%10;
+    printf("hundred bit is: %d\n",b);
+    printf("ten bit is:%d\n",c);
+    printf("single bit is:%d\n",d);
+
+
+}
+
+------------执行结果-------------
+
+please type a three-digit number here:456
+hundred bit is: 4
+ten bit is:5
+single bit is:6
