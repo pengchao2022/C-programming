@@ -1,0 +1,21 @@
+// this program is to calculate the area of a triangle
+
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+
+    float a,b,c,s,area;
+    printf("Please type the side length of a triangle:");
+    scanf("%f %f %f",&a,&b,&c);
+
+    s=(a+b+c)/2.0;
+    area=sqrt(s*(s-a)*(s-b)*(s-c));
+    printf("area=%.2f\n",area);
+
+}
+
+------------执行结果--------------
+
+Please type the side length of a triangle:8 8 9
+area=29.76
