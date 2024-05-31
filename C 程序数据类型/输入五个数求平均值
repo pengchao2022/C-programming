@@ -1,0 +1,19 @@
+// this program is to count the average value of numbers:
+
+#include<stdio.h>
+int main(){
+
+    float a,b,c,d,e,avg;
+    printf("Please type five numbers here: \n");
+    scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+
+    avg = (a+b+c+d+e)/5.0;
+
+    printf("avg is: %.2f\n",avg);
+}
+
+-------------执行结果--------------
+
+Please type five numbers here: 
+76 89 67 87 56 
+avg is: 75.00
