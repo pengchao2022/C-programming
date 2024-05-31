@@ -1,0 +1,22 @@
+#include<stdio.h>
+#define PRICE 40
+
+int main(){
+
+    int num, total;
+    num = 10;
+    total = num*PRICE;
+    printf("Total is: %d\n", total);
+
+
+}
+
+---------------- 执行结果 ------------
+pengchao@PengChaos-MacBook-Pro c_projects % cd "/Users/pengchao/C_SCRIPTS/c_projects/" && gcc 6.c -o 6 && "
+/Users/pengchao/C_SCRIPTS/c_projects/"6
+Total is: 400
+
+
+-------------- 说明----------------
+如果价格有变，只需要更改最前面的 price 值就可以改所有的输出，这样比较方便而且不易出错
+
