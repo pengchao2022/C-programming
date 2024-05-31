@@ -1,0 +1,25 @@
+// this program is to change the capital letter to low case letter
+
+#include<stdio.h>
+
+int main(){
+
+    char c1,c2;
+    printf("Please type your capital letter here:");
+    c1=getchar();
+    printf("your letter is:\n%c, the ASCII number is: %d\n",c1,c1);
+
+    c2=c1+32;
+    printf("the low case for your letter is:\n%c, the ASCII number is:%d\n",c2,c2);
+
+
+
+}
+
+--------------------执行结果------------------------
+
+Please type your capital letter here:Y
+your letter is:
+Y, the ASCII number is: 89
+the low case for your letter is:
+y, the ASCII number is:121
